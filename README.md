@@ -36,7 +36,7 @@ The purpose of this project was to create an automatic hot cocoa maker. All that
 
 ### Wiring Diagrams
 
-![coco circuit](coco circuit.png)
+![coco_circuit](coco_circuit.png)
 
 ^all you gotta do is change is the name and the pic should pop up, TJ could you talk ab the circuit?
 

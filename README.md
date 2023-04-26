@@ -14,6 +14,11 @@ The purpose of this project was to create an automatic hot cocoa maker. All that
 
 ### Supplies
 
+- 1 Arduino Uno
+- 1 Laptop with capability to run Arduino code
+- (however many wires you used) wires
+- 
+
 ## Wiring Diagrams
 
 ## Test Description

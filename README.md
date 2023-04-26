@@ -38,7 +38,19 @@ The purpose of this project was to create an automatic hot cocoa maker. All that
 
 ![coco circuit](coco circuit.png)
 
+^all you gotta do is change is the name and the pic should pop up, TJ could you talk ab the circuit?
+
 ## Test Description
+
+Testing involved troubleshooting the following items:
+- LCD screen function
+- Thermocouple testing
+- Electric kettle function
+- Water pump testing
+- BLDC fan testing
+- Magnet stir testing
+
+#### LCD screen function
 
 ## Code Overview
 

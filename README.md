@@ -11,7 +11,7 @@ Final project for BAE 305 (TJ Wink, Luke Huesman, and Kate Moore)
 
 ## Wiring Diagrams
 
-![coco diagram](coco diagram.png)
+![coco_diagram](coco_diagram.png)
 
 ## Test Description
 

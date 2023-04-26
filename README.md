@@ -50,7 +50,22 @@ Testing involved troubleshooting the following items:
 - BLDC fan testing
 - Magnet stir testing
 
-#### LCD screen function
+#### **LCD screen function**
+
+
+#### **Thermocouple testing**
+
+
+#### **Electric kettle function**
+
+
+#### **Water pump testing**
+
+
+#### **BLDC fan testing**
+
+
+#### **Magnet stir testing**
 
 ## Code Overview
 

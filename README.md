@@ -34,7 +34,7 @@ The purpose of this project was to create an automatic hot cocoa maker. All that
 
 (note all components are rated for 12V, ? A)
 
-## Wiring Diagrams
+### Wiring Diagrams
 
 ## Test Description
 

@@ -36,6 +36,8 @@ The purpose of this project was to create an automatic hot cocoa maker. All that
 
 ### Wiring Diagrams
 
+![coco circuit](coco circuit.png)
+
 ## Test Description
 
 ## Code Overview

@@ -31,7 +31,7 @@ The purpose of this project was to create an automatic hot cocoa maker. All that
 - 2 servo motors
 - Funnel (3D printed for our project)
 - Wood for hot cocoa stand
-- Potentiameter
+- Potentiometer
 
 (note all components are rated for 12V, ? A)
 

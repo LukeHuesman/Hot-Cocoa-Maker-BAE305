@@ -8,3 +8,8 @@ Final project for BAE 305 (TJ Wink, Luke Huesman, and Kate Moore)
 ## Design Description
 
 ### Supplies
+
+### Wiring Diagrams
+
+## Test Description
+

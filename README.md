@@ -14,10 +14,25 @@ The purpose of this project was to create an automatic hot cocoa maker. All that
 
 ### Supplies
 
-- 1 Arduino Uno
-- 1 Laptop with capability to run Arduino code
+- Arduino Uno
+- Laptop with capability to run Arduino code
+- 12V laptop charger
+- LCD screen
 - (however many wires you used) wires
-- 
+- Water Pump (idk specs)
+- (2) 6 mm silicone tubes
+- Electric water kettle
+- 3? transistors
+- Coffee cup
+- ? Resistors
+- BLDC Fan
+- (2) rare earth magnets
+- (1) magnetic stirring bar
+- (whatever the motor used on the funnel is called)
+- Funnel (3D printed for our project)
+- Wood for hot cocoa stand
+
+(note all components are rated for 12V, ? A)
 
 ## Wiring Diagrams
 

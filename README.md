@@ -36,7 +36,7 @@ The purpose of this project was to create an automatic hot cocoa maker. All that
 
 ### Wiring Diagrams
 
-![coco_circuit](coco_circuit.png)
+![coco circuit](coco circuit.png)
 
 ^all you gotta do is change is the name and the pic should pop up, TJ could you talk ab the circuit?
 
@@ -51,21 +51,26 @@ Testing involved troubleshooting the following items:
 - Magnet stir testing
 
 #### **LCD screen function**
-
+To test the functionality of the LCD screen, our group ran the "Hello, world!" code given by the Arduino website. This was a simple test to troubleshoot and ensure the LCD screen did not have any malfunction in display. 
 
 #### **Thermocouple testing**
+
 
 
 #### **Electric kettle function**
 
 
+
 #### **Water pump testing**
+
 
 
 #### **BLDC fan testing**
 
 
+
 #### **Magnet stir testing**
+
 
 ## Code Overview
 

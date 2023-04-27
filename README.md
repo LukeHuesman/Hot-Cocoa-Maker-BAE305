@@ -211,6 +211,29 @@ The two main factors to consider when selecting the tubing was it needed to fit 
 
 As a safety precaution, our kettle automatically turned off once water started boiling. If this safety feature was not on there, we would need to implement code that shut off the kettle once the desired temperature was surpassed. It needed to be able to heat water in a reasonable time and have access to put a tube and therocouple in it.
 
+### Rare Earth Magnets / Magnetic Stirring Pill
+
+The combination between these two create a magnetic field that generates a circular motion with the magnetic stirring pill. Things to keep in mind is to ensure the field greated is the proper size along with the pill to rotate while not getting thrown outside of the field.
+
+### BLDC Fan
+
+The rare earth magnets are glued onto the fan to generate the magnetic field to make the stirring pill rotate. Complications with this include throttling the fan fast enough to keep th pill spinning but not too fast so the pill is thrown from the magnetic field. In addition, the pill has to spin consistently and fast enough to stir the hot chocolate, which requires trial and error testing.
+
+### Servo Motor for Funnel
+
+This servo was used to block the powder from coming down the empty funnel and turning 90 degrees away when the powder is supposed to go into the cup. Things to consider are placement of the servo to be flush with the bottom of the funnel, material on the servo arm to fully block funnel, and a far enough rotation so that when it opens, the entire bottom of the funnel is free.
+
+### Servo Motor for Powder Stirring
+
+With an attached paperclip, this motor would run for a certain amount of seconds to scrap excess powder in the funnel due to binding. We had to ensure the motor and paperclip were placed properly to scoop all edges of the funnel without damaging the funnel.
+
+### Funnel
+
+Used to hold the powder, our funnel was built in to our wooden stand. Due to the 3D printed details having complications, we had to implement a servo motor to knock down excess powder stuck in the funnel. 
+
+### Thermocouple
+
+Our group used a thermocouple that could withstand boiling water and read temperature when connected to an Arduino. Specs that were needed included being waterproof and at least a foot in length so it could pass into the electric kettle without stretching the circuit too far.
 
 
 ## Project Discussion

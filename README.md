@@ -33,7 +33,7 @@ The purpose of this project was to create an automatic hot cocoa maker. All that
 - Wood for hot cocoa stand
 - Potentiometer
 
-(note all components are rated for 12V, ? A)
+(note all components are rated for 12V, 120V AC)
 
 ### Wiring Diagrams
 

@@ -131,6 +131,71 @@ void loop() {
 
       delay(500);                                                 //wait half a second
 ```      
+
+Once 165 degrees Fahrenheit is reached, a series of if statements is triggered that will run the brewing process one after another. This includes pumping the water for the cup, dumping powder in, stirring powder out of funnel, and stirring in a sequencial order. At the end, "Done!" will be displayed on the LCD screen to indicate to the user that their hot chocolate is complete. Throughout each if statement, the variable assigned to each task is labeled as 1 to state to the arduino that the task is complete. This was done to ensure that the process does not run again as it is in a loop.
+
+```c
+else if (degreesF >= 165){                                    //if temp is greater than or equal to 165
+      lcd.setCursor(0, 0);                                        //set the cursor to the upper left position
+      lcd.print("Degrees F: ");                                   //Print a label for the data
+      lcd.print((sensors.getTempCByIndex(0) * 9.0) / 5.0 + 32.0); //print the degrees Fahrenheit
+
+      delay(500);                                                 //wait half a second
+      
+      if (startBrewing == 0){
+        lcd.setCursor(0, 1);                                        //set the cursor to the lower left position
+       lcd.print("Brewing...");                                    //Print that water is pumping
+       delay(500);                                                 //wait half a second
+       startBrewing = 1;
+      }
+      
+      
+      if (haveIbrewed == 0){
+        digitalWrite(RELAY_PIN_PUMP, HIGH);                              // turn on pump 10 seconds
+        delay(10000);
+        digitalWrite(RELAY_PIN_PUMP, LOW);                               // turn off pump
+        haveIbrewed = 1;
+        }
+      if (haveIdumpedMix == 0){
+        myservo.write(90);
+        delay(2000);
+        myservo.write(0);
+        delay(2000);
+        haveIdumpedMix = 1;
+        }
+      if (haveIemptiedMix == 0){
+        digitalWrite(RELAY_PIN_STIR, HIGH); // turn on stirrer 10 seconds
+        delay(10000);
+        digitalWrite(RELAY_PIN_STIR, LOW);  // turn off stirrer
+        delay(1000);
+        haveIemptiedMix = 1;
+      }
+      if (haveIstirred == 0){
+        analogWrite(RELAY_PIN_FAN, 90); // turn on fan 30 seconds at 90/255 power
+        delay(30000);
+        analogWrite(RELAY_PIN_FAN, 0);  // turn off fan 
+        delay(1000);
+        haveIstirred = 1;
+        lcd.clear();
+        lcd.setCursor(0, 1);
+        lcd.print("Done!");
+        delay(20000);  
+
+    }
+    ```
+    
+    If there is none of the following detected (in other words if the temperature detected is under 80 degrees) it will display "STAND BY" on the LCD screen.
+    
+    ```c
+     else{
+      lcd.setCursor(0, 1);                                     //set the cursor to the upper left position
+      lcd.print("STAND BY");                                   //Print that it is waiting for water to heat up
+      delay(1000);                                             //wait a full second
+```
+
+Since the program is stored in the Arduino, the process can be reset by hitting the reset button on the Arduino. This allows for only that button to be pressed to start the process of making hot cocoa without running the code again.
+
+    
   
 
 

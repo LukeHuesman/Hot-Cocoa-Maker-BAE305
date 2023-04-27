@@ -97,6 +97,44 @@ int haveIstirred = 0;
 int startBrewing = 0;
 ```
 
+The integers that equal 0 assign tasks that when completed, will equal 1. Constant integers establish the pump, fan, and stirring motor pins respectively. The following code block represents how we printed the degrees on the arduino be reading the temperature from the thermocouple.
+
+```c
+void loop() {
+ 
+  sensors.requestTemperatures();                                 //Send the command to get temperatures
+  lcd.setCursor(0, 0);                                           //set cursor to the upper left position
+  lcd.print("Degrees F: ");                                      //Print "Degrees F: " 
+  lcd.print((sensors.getTempCByIndex(0) * 9.0) / 5.0 + 32.0);    //print the temperature in Fahrenheit
+  degreesF = (sensors.getTempCByIndex(0) * 9.0) / 5.0 + 32.0;    //Make temperature a varible called degreesF
+  delay(500);              
+  ```
+  
+  If the temperature read was between 80 and 165 degrees Fahrenheit, the LCD screen would display the temperature and that it is brewing. 
+ 
+ ```c
+ if (degreesF >= 80 && degreesF < 165){                         //if temp is equal to or above 80 and below 165
+    
+    lcd.setCursor(0, 0);                                         //set the cursor to the upper left position
+    lcd.print("Degrees F: ");                                    //Print a label for the data
+    lcd.print((sensors.getTempCByIndex(0) * 9.0) / 5.0 + 32.0);  //print the degrees Fahrenheit
+
+    delay(500);                                                  //wait half a second
+
+    lcd.setCursor(0, 1);                                         //set the cursor to the lower left position
+    lcd.print("Heating...");                                     //Print that water is heating
+  }
+    else if (degreesF >= 165){                                    //if temp is greater than or equal to 165
+      lcd.setCursor(0, 0);                                        //set the cursor to the upper left position
+      lcd.print("Degrees F: ");                                   //Print a label for the data
+      lcd.print((sensors.getTempCByIndex(0) * 9.0) / 5.0 + 32.0); //print the degrees Fahrenheit
+
+      delay(500);                                                 //wait half a second
+```      
+  
+
+
+
 ## Part Analysis
 
 ### Project Discussion

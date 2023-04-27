@@ -79,8 +79,9 @@ To make sure the thermocouple was detecting temperature properly, our group ran 
 Our code was structured to run all of our functions off of one switch. To perform this, our code made a series of if statements, with a function to conduct the brewing process if the temperature reached over 165 degrees Fahrenheit.
 
 Below is our initialized variables, which contain floats and integers
-`
-  float voltage = 0;                          //the voltage measured from the TMP36
+
+
+ `float voltage = 0;                          //the voltage measured from the TMP36
   float degreesC = 0;                         //the temperature in Celsius, calculated from the voltage
   float degreesF = 0;                         //the temperature in Fahrenheit, calculated from the voltage
 
@@ -93,8 +94,8 @@ Below is our initialized variables, which contain floats and integers
   int haveIdumpedMix = 0;
   int haveIemptiedMix = 0;
   int haveIstirred = 0;
-  int startBrewing = 0;
-`
+  int startBrewing = 0;`
+
 
 ## Part Analysis
 

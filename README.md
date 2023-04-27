@@ -203,6 +203,15 @@ Since the program is stored in the Arduino, the process can be reset by hitting 
 
 This was used to move water from the electric kettle to the coffee cup. The water had to be able to handle 12 V, an input and output valve, run for at least 8 seconds to get enough water in the cup. The pump laid next to the stand with one end of silicon tubing going into the ketttle and one end going into the cup. The pump works and codes very similar to a motor in Arduino. This allowed easy integration and implementing into our system after testing for how long the pump would stay on to fill the cup. One thing to consider with the pump is the pump rate since too fast of a pump rate (> ~3 ounces per second) would cause water to spill.
 
+### Silicon Tubes
+
+The two main factors to consider when selecting the tubing was it needed to fit the outlet of the water pump and be able to withstand hot water (in our case, at least boiling water at 212 degrees Fahrenheit). They needed to be long enough to stretch from the pump to the coffee cup which was roughly 2 feet on either side.
+
+### Electric Water Kettle
+
+As a safety precaution, our kettle automatically turned off once water started boiling. If this safety feature was not on there, we would need to implement code that shut off the kettle once the desired temperature was surpassed. It needed to be able to heat water in a reasonable time and have access to put a tube and therocouple in it.
+
+
 
 ## Project Discussion
 

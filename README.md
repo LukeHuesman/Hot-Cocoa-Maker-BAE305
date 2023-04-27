@@ -39,7 +39,7 @@ The purpose of this project was to create an automatic hot cocoa maker. All that
 
 ![coco_circuit](coco_circuit.png)
 
-TJ could you talk ab the circuit?
+The circuit was used to operate 6 major pieces in the group project cocoa machine these pieces included a thermocouple, LCD screen (controlled by a potentiometer for brightness), servo motor, motor, computer fan, and a pump. The pump, computer fan, motor where all assisted by a 3 prong transistor since the each where powerd by a 12V power source, these transistors where used to feed the components to seperate pins in the arduino board. The process of learning how each component in the circuit operated was a fantastic learning experience, the most difficult learning curve for the group was the understanding of the transistors functionality. The fuinctionality of these transistors allowed us the opportunity to still wire the components to pin fuction on the arduino while also using an outside power source (wall plug-in) to power more intesive components for better functionality of our cocoa machine.
 
 ## Test Description
 
@@ -80,22 +80,22 @@ Our code was structured to run all of our functions off of one switch. To perfor
 
 Below is our initialized variables, which contain floats and integers
 
+`
+float voltage = 0;                          //the voltage measured from the TMP36
+float degreesC = 0;                         //the temperature in Celsius, calculated from the voltage
+float degreesF = 0;                         //the temperature in Fahrenheit, calculated from the voltage
 
- `float voltage = 0;                          //the voltage measured from the TMP36
-  float degreesC = 0;                         //the temperature in Celsius, calculated from the voltage
-  float degreesF = 0;                         //the temperature in Fahrenheit, calculated from the voltage
+const int RELAY_PIN_PUMP = 3;                    // the Arduino pin, which connects to the IN pin of relay
+const int RELAY_PIN_FAN = 6;                     // the Arduino pin for the fan
+const int RELAY_PIN_STIR = 7;                    // the Arduino pin for the stirrer
 
-  const int RELAY_PIN_PUMP = 3;                    // the Arduino pin, which connects to the IN pin of relay
-  const int RELAY_PIN_FAN = 6;                     // the Arduino pin for the fan
-  const int RELAY_PIN_STIR = 7;                    // the Arduino pin for the stirrer
-
-  int haveIbrewed = 0;
-  int haveIpumpedWater = 0;
-  int haveIdumpedMix = 0;
-  int haveIemptiedMix = 0;
-  int haveIstirred = 0;
-  int startBrewing = 0;`
-
+int haveIbrewed = 0;
+int haveIpumpedWater = 0;
+int haveIdumpedMix = 0;
+int haveIemptiedMix = 0;
+int haveIstirred = 0;
+int startBrewing = 0;
+`
 
 ## Part Analysis
 

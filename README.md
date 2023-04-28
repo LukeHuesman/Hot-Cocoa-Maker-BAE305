@@ -238,6 +238,10 @@ Used to hold the powder, our funnel was built in to our wooden stand. Due to the
 
 Our group used a thermocouple that could withstand boiling water and read temperature when connected to an Arduino. Specs that were needed included being waterproof and at least a foot in length so it could pass into the electric kettle without stretching the circuit too far.
 
+### Plywood Stand
+
+The structure we used to combine all of the parts above is made out of 1/4-inch, laser cut, plywood. The stand was inspired by the design of the Keurig Coffee Maker. The funnel, servo motors, and silicon tubes are located in the top part of the wood stand. The mug and kettle sit on small platforms opposite of each other. The mug is placed under the funnel to catch the hot water and cocoa mix. The fan is located under the mug platform. A 3-inch diameter circle was cut from this area to allow maximum flux between the rare earth magnets attched to the fan and the stirring pill. The stand was put together using wood glue and Gorilla Glue.
+
 
 ## Project Discussion
 

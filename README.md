@@ -231,6 +231,9 @@ With an attached paperclip, this motor would run for a certain amount of seconds
 
 Used to hold the powder, our funnel was built in to our wooden stand. Due to the 3D printed details having complications, we had to implement a servo motor to knock down excess powder stuck in the funnel. 
 
+![funnel](funnel.jpg)
+
+
 ### Thermocouple
 
 Our group used a thermocouple that could withstand boiling water and read temperature when connected to an Arduino. Specs that were needed included being waterproof and at least a foot in length so it could pass into the electric kettle without stretching the circuit too far.

@@ -240,4 +240,4 @@ Our group used a thermocouple that could withstand boiling water and read temper
 
 ## Results
 
-For this project our grading critera for the final grade
+For this project our grading critera for the overal grade and our objective for the project was to heat water to at least 160 degrees F, display on LCD screen the temperature of the water throughout the process (minus mixing part), dump packet of mix into heated water, mix water and hot cocoa mix until blended (little chu8nks are okay), stop mixing, Display on LCD screen “Done!” After process is complete.

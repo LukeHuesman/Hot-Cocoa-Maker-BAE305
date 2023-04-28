@@ -219,6 +219,8 @@ The combination between these two create a magnetic field that generates a circu
 
 The rare earth magnets are glued onto the fan to generate the magnetic field to make the stirring pill rotate. Complications with this include throttling the fan fast enough to keep th pill spinning but not too fast so the pill is thrown from the magnetic field. In addition, the pill has to spin consistently and fast enough to stir the hot chocolate, which requires trial and error testing.
 
+![cocoa1](cocoa1.jpg)
+
 ### Servo Motor for Funnel
 
 This servo was used to block the powder from coming down the empty funnel and turning 90 degrees away when the powder is supposed to go into the cup. Things to consider are placement of the servo to be flush with the bottom of the funnel, material on the servo arm to fully block funnel, and a far enough rotation so that when it opens, the entire bottom of the funnel is free.

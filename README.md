@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
-
 # Hot-Cocoa-Maker-BAE305
 Final project for BAE 305 (TJ Wink, Luke Huesman, and Kate Moore)
 

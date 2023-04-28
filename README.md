@@ -240,7 +240,11 @@ Our group used a thermocouple that could withstand boiling water and read temper
 
 ### Plywood Stand
 
-The structure we used to combine all of the parts above is made out of 1/4-inch, laser cut, plywood. The stand was inspired by the design of the Keurig Coffee Maker. The funnel, servo motors, and silicon tubes are located in the top part of the wood stand. The mug and kettle sit on small platforms opposite of each other. The mug is placed under the funnel to catch the hot water and cocoa mix. The fan is located under the mug platform. A 3-inch diameter circle was cut from this area to allow maximum flux between the rare earth magnets attched to the fan and the stirring pill. The stand was put together using wood glue and Gorilla Glue.
+The structure we used to combine all of the parts above is made out of 1/4-inch, laser cut, plywood. The stand was inspired by the design of the Keurig Coffee Maker. The funnel, servo motors, and silicon tubes are located in the top part of the wood stand. The mug and kettle sit on small platforms opposite of each other. The mug is placed under the funnel to catch the hot water and cocoa mix. The fan is located under the mug platform. A 3-inch diameter circle was cut from this area to allow maximum flux between the rare earth magnets, attched to the fan, and the stirring pill. The stand was put together using wood glue and Gorilla Glue.
+
+![_cocoa_stand](_cocoa_stand.jpg)
+
+![platforms_pic](platforms_pic.jpg)
 
 
 ## Project Discussion

@@ -239,3 +239,5 @@ Our group used a thermocouple that could withstand boiling water and read temper
 ## Project Discussion
 
 ## Results
+
+For this project our grading critera for the final grade
